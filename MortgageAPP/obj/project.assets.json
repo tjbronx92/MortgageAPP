@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/tjrobinson/.nuget/packages/": {}
+    "/Users/tj/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tjrobinson/Documents/dash/charp_mortgage_calc/MortgageAPP/MortgageAPP/MortgageAPP.csproj",
+      "projectUniqueName": "/Users/tj/Documents/CoderFoundry_projects/MortgageAPP/MortgageAPP/MortgageAPP.csproj",
       "projectName": "MortgageAPP",
-      "projectPath": "/Users/tjrobinson/Documents/dash/charp_mortgage_calc/MortgageAPP/MortgageAPP/MortgageAPP.csproj",
-      "packagesPath": "/Users/tjrobinson/.nuget/packages/",
-      "outputPath": "/Users/tjrobinson/Documents/dash/charp_mortgage_calc/MortgageAPP/MortgageAPP/obj/",
+      "projectPath": "/Users/tj/Documents/CoderFoundry_projects/MortgageAPP/MortgageAPP/MortgageAPP.csproj",
+      "packagesPath": "/Users/tj/.nuget/packages/",
+      "outputPath": "/Users/tj/Documents/CoderFoundry_projects/MortgageAPP/MortgageAPP/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/tjrobinson/.nuget/NuGet/NuGet.Config"
+        "/Users/tj/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
