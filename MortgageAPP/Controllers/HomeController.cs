@@ -26,6 +26,7 @@ public class HomeController : Controller
     public IActionResult App()
     {
         Loan loan = new();
+
         loan.Payment = 0.0m;
         loan.TotalInterest = 0.0m;
         loan.TotalCost = 0.0m;
