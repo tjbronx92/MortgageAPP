@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MortgageAPP.Models;
+using MortgageAPP.Helpers;
 
 namespace MortgageAPP.Controllers;
 
@@ -35,6 +36,18 @@ public class HomeController : Controller
         loan.Term = 60;
 
         return View(loan);
+    }
+
+    [HttpPost]
+    [AutoValidateAntiforgeryToken]
+    public IActionResult App(Loan loan)
+    {
+        //Call Method To Calculate Loan
+        var loanHelper = new LoanHelper();
+
+        Loan newLoan = loanHelper.GetPayments(loan);
+
+        return View(newLoan);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
