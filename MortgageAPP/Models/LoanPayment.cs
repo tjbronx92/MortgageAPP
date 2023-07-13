@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace MortgageAPP.Models
 {
 	public class LoanPayment
